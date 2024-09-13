@@ -1,0 +1,25 @@
+using System; 
+	  /*Calculo média de um aluno 
+      Obter as 3 notas de um aluno
+      Calcular a média aritmética
+      Exibir a média 
+      Se a média for maior ou igual a 6, o aluno foi aprovado
+      Senão o aluno foi reprovado
+     */
+      int nota1 = 6;
+      int nota2 = 8;
+      int nota3 = 7;
+     
+      int media = (nota1 + nota2 + nota3) /3;
+     
+      Console.WriteLine($"A média é: {media}");
+     
+      if (media >= 6)
+      {
+        Console.WriteLine("O aluno foi aprovado");  
+      }
+      else
+      {
+        Console.WriteLine("O aluno foi reprovado");
+      }
+
